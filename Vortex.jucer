@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="VdXqnF" name="Vortex" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="iQWp0g" name="Vortex">
+    <FILE id="HKXr8D" name="Record_Red.png" compile="0" resource="1" file="Source/Record_Red.png"/>
+    <FILE id="ghgnk6" name="Stop.png" compile="0" resource="1" file="Source/Stop.png"/>
+    <FILE id="l3Av4r" name="Record.png" compile="0" resource="1" file="Source/Record.png"/>
+    <FILE id="h4mIhC" name="Play.png" compile="0" resource="1" file="Source/Play.png"/>
+    <GROUP id="{88F53A84-3F64-90E9-14DB-117783296FFD}" name="Source">
+      <FILE id="ircxTH" name="AudioSettingsDemo.h" compile="0" resource="0"
+            file="Source/AudioSettingsDemo.h"/>
+      <FILE id="Mto4WT" name="Clock.h" compile="0" resource="0" file="Source/Clock.h"/>
+      <FILE id="QPODuS" name="CustomComponent.cpp" compile="1" resource="0"
+            file="Source/CustomComponent.cpp"/>
+      <FILE id="BC9KEQ" name="CustomComponent.h" compile="0" resource="0"
+            file="Source/CustomComponent.h"/>
+      <FILE id="MxJNQs" name="CustomListbox.cpp" compile="1" resource="0"
+            file="Source/CustomListbox.cpp"/>
+      <FILE id="jwxQAk" name="CustomListbox.h" compile="0" resource="0" file="Source/CustomListbox.h"/>
+      <FILE id="hqOjJc" name="CustomScrollBar.h" compile="0" resource="0"
+            file="Source/CustomScrollBar.h"/>
+      <FILE id="cQcoIB" name="CustomViewport.cpp" compile="1" resource="0"
+            file="Source/CustomViewport.cpp"/>
+      <FILE id="ocqAaG" name="CustomViewport.h" compile="0" resource="0"
+            file="Source/CustomViewport.h"/>
+      <FILE id="PnuqP1" name="DragAndDrop.h" compile="0" resource="0" file="Source/DragAndDrop.h"/>
+      <FILE id="rBIWC9" name="Global.h" compile="0" resource="0" file="Source/Global.h"/>
+      <FILE id="zkl8MW" name="IncrementCounter.cpp" compile="1" resource="0"
+            file="Source/IncrementCounter.cpp"/>
+      <FILE id="WO1GHn" name="IncrementCounter.h" compile="0" resource="0"
+            file="Source/IncrementCounter.h"/>
+      <FILE id="oH2tpk" name="Info.h" compile="0" resource="0" file="Source/Info.h"/>
+      <FILE id="BtV2Hd" name="LassoSelector.h" compile="0" resource="0" file="Source/LassoSelector.h"/>
+      <FILE id="KXacuQ" name="Listener.h" compile="0" resource="0" file="Source/Listener.h"/>
+      <FILE id="rdShZB" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="qS1hIr" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="b0xBGQ" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="o1bThD" name="Media.h" compile="0" resource="0" file="Source/Media.h"/>
+      <FILE id="AJ0jlc" name="Note.cpp" compile="1" resource="0" file="Source/Note.cpp"/>
+      <FILE id="KWC0Iy" name="Note.h" compile="0" resource="0" file="Source/Note.h"/>
+      <FILE id="i1cjeo" name="Settings.h" compile="0" resource="0" file="Source/Settings.h"/>
+      <FILE id="RlMA0Y" name="Tracker.h" compile="0" resource="0" file="Source/Tracker.h"/>
+      <FILE id="hkHcLA" name="vsttypes.h" compile="0" resource="0" file="Source/vsttypes.h"/>
+    </GROUP>
+    <FILE id="Cki6no" name="down.png" compile="0" resource="1" file="Source/down.png"/>
+    <FILE id="V4DSle" name="matrix.png" compile="0" resource="1" file="Source/matrix.png"/>
+    <FILE id="RT0DGg" name="up.png" compile="0" resource="1" file="Source/up.png"/>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_PLUGINHOST_VST3="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Vortex"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Vortex"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
